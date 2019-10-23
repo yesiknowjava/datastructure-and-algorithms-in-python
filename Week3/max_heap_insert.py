@@ -14,7 +14,7 @@ if __name__ == '__main__':
     value_list = [10, 5, 6, 1, 2, 3, 4]#sample max heap
     delete_value = 10
     #to delete : we can only delete the root
-    value_list[0].append(insert_value)
+    value_list[0].append(value_list)
     print(value_list)
     value_list = heapify(value_list, value_list[-1])
     print(value_list)
