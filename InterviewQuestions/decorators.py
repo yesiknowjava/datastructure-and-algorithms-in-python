@@ -1,11 +1,11 @@
 def decorator_function(f):
-    def xx(*args, **kwargs):
+    def wrapperxx(*args, **kwargs):
         print("1")
         l = list(args)
         l[0] = 'Hello Prabhakar'
         f(*l, **kwargs)
         print("2")
-    return xx
+    return wrapperxx
 
 @decorator_function
 def myfunction(a):

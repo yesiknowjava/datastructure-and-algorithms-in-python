@@ -14,6 +14,8 @@ class StackClass:
 
 if __name__ == "__main__":    
     a = StackClass([1,2,3])
-    print "Data popped is", a.pop()    
-    print "Current Data after pushing is ", a.push(111)
+
+    print("Current Data before after pushing is {}".format(a.stack))
+    print("Data popped is {}".format(a.pop()))    
+    print("Current Data after pushing is {}".format(a.stack))
 
